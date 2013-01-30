@@ -1,4 +1,4 @@
-// Edited by Vikram: Edit 2//
+// Edited by Vikram: Edit 3//
 
 
 #include "main.h"
@@ -40,6 +40,8 @@ int main( void )
 	// Set Motor To Rest
 	MCB.Commands.DIRECTION = REST;
 
+
+// I also added this line for fun
 	
 	while(1)
 		{
