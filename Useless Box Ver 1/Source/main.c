@@ -13,7 +13,7 @@ int main( void )
 	// Motor Control Block 
 	extern _MotorControlBlock MCB;
 
-	// Disable the Dog
+	// Disable the Dog: Disabled to test a finction 
 	WDTCTL = WDTPW + WDTHOLD;  
 
 	// Initialize IO Ports(Port 2.2 is used to detect interrupt on the pin)
